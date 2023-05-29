@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lnkd.ckapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CKApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThongKeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LienHeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThongTinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XemDonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DangKiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GioHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LaptopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DienThoaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemSPActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".Service.FirebaseMessagerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

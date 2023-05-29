@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LienHeActivity"
+    android:background="@drawable/logo2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Liên hệ"
+        android:background="#52175A"
+        app:titleTextColor="#EBE1FB"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:drawablePadding="20dp"
+            android:textSize="20sp"
+            android:text="Nhóm 12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:textSize="20sp"
+            android:text="Lê Ngọc Kim Duyên - N19DCAT015"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:textSize="20sp"
+            android:text="Phạm Thị Hiền - N19DCAT023"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:textSize="20sp"
+            android:text="Đổng Thiên Thảo - N19DCAT079"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:textSize="20sp"
+            android:text="Phạm Thị Thùy Vi - N19DCAT095"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:textSize="20sp"
+            android:text="Nguyễn Quang Vinh - N19DCAT097"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

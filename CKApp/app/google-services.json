@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200053377556",
+    "project_id": "appbanhang-625c6",
+    "storage_bucket": "appbanhang-625c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200053377556:android:d626d85ac562c448223501",
+        "android_client_info": {
+          "package_name": "com.lnkd.ckapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200053377556-gsl6utpqnimjh8su7dnha9sv1btc6sja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB76nqhlmPBVJzlBTaTt18wabuzmTyAyww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200053377556-gsl6utpqnimjh8su7dnha9sv1btc6sja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
